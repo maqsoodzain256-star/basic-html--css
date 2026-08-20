@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #111;
+    color: white;
+
+}
+header{
+height:70px;
+padding: 0 8%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #000;
+
+}
+h2{
+    color: red;
+}
+nav{
+    display: flex;
+    gap: 25px;
+    
+}
+nav a{
+    color:white;
+text-decoration: none;
+}
+nav a:hover{
+    color:red;
+}
+.hero{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0%;
+}
+.hero-text{
+    width: 40%;
+}
+.hero-text h1{
+    font-family: 50px;
+   margin-bottom: 20px;
+
+}
+.hero-text p{
+    color:#bbb;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+button{
+    background-color: red;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor: pointer;
+}
+button:hover{
+    color: darkblue;
+}
+.hero-image{
+    width: 50%;
+}
+.hero-image img{
+    width: 100%;
+}
+

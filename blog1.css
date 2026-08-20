@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0  8px;
+    align-items: center;
+}
+header:hover{
+    color: chartreuse;
+}
+nav{
+    display: flex;
+    gap:20px;
+}
+nav a{
+    color: black ;
+    text-decoration: none;
+    transform: scale(1.09);
+}
+nav a:hover{
+    color: chartreuse;
+}
+article{
+    
+    width: 90%;
+max-width: 500px;
+    margin: 80px;
+    
+    padding: 30px 300px;
+    text-align: justify;
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.8);
+}
+img {
+    height: 200px;
+    width: 400px;
+   
+}  
+img:hover{
+    transform:scale(1.03) ;
+     box-shadow: 0 50px 100px rgba(0, 0, 0, 0.8);
+}

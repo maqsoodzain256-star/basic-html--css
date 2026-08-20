@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    box-shadow: 0 5px 10px;
+    margin-top: 20px;
+}
+table:hover{
+    background-color: aqua;
+}
+thead{
+    color: red;
+    background-color: aliceblue;
+}
+thead:hover{
+    background-color: aquamarine;
+}
+td{
+    text-align: center;
+}

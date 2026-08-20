@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 60%;
+    padding-bottom: 20px;
+    box-shadow: 0 10px 10px;
+}
+.both{
+    margin: 40px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+#top{
+
+    box-shadow: 0 10px 10px;
+    display: flex;
+}
+.sec{
+    box-shadow: 0 10px 10px;
+    padding: 25px;
+}

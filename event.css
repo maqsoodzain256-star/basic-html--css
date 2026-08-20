@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 600px;
+    width: 200px;
+    border-right: 30px solid black;
+}
+div{
+    display: inline-block;
+}
+.image{
+    width: 250px;
+}
+.invit{
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 160px;
+  
+}
+form{
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button{
+   height: 40px;
+   width: 150px;
+   box-shadow: 0 10px 15px;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+  margin: 150px;
+  
+}
+h1{
+    margin-bottom: 20px;
+}
+details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+section{
+    height: 200px;
+    width: 250px;
+    margin-left: 350px;
+    box-shadow: 0 15px 25px;
+}
